@@ -128,57 +128,66 @@ table {
     border-spacing: 0;
 }
 
+button,
 button:hover,
 button:active,
 button:after,
-button:before {
-    outline: none;
+button:before,
+button:focus {
     border: none;
+    outline: none;
 }
 
 a:-webkit-any-link {
-    color: white;
-    text-decoration: none;
     color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
 }
 
 /* My CSS*/
 
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+    font-style: normal;
+}
+
+h2,
+p,
+footer {
+    font-family: Source Sans Pro;
+}
+
 h1 {
     font-family: Oswald;
-    font-weight: 700;
-    font-style: normal;
-    font-weight: bold;
     font-size: 48px;
+    font-weight: 700;
     line-height: 64px;
-    text-align: center;
 }
 
 h2 {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
+    font-weight: 400;
     line-height: 32px;
     margin-top: 30px;
-    text-align: center;
 }
 
 p {
-    font-family: Source Sans Pro;
-    font-style: normal;
+    color: #000000;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     margin-top: 20px;
-    text-align: center;
-    color: #000000;
+}
+
+.white-text {
+    color: #ffffff;
 }
 
 .hero-block h1 {
-    margin-top: 20px;
     box-sizing: border-box;
-    color: #ffffff;
+    margin-top: 20px;
 }
 
 .hero-block h2 {
@@ -187,25 +196,26 @@ p {
 
 .hero-block {
     background-image: url(../assets/Hero_background.png);
-    width: 1200px;
     height: 526px;
-    padding-top: 274px;
     margin: 0 auto;
+    padding-top: 274px;
+    width: 1200px;
 }
 
 #big-logo {
+    box-sizing: border-box;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-sizing: border-box;
 }
 
 .headline {
+    background-color: #eeeeee;
+    box-sizing: border-box;
     display: block;
-    width: 1200px;
     margin: 0 auto;
     padding: 90px 97px 100px 120px;
-    box-sizing: border-box;
+    width: 1200px;
 }
 
 .headline h1 {
@@ -217,22 +227,19 @@ p {
 }
 
 button {
-    color: #ffffff;
-    font-family: Oswald Regular;
-    text-transform: uppercase;
     background-color: #55c2d8;
     display: block;
-    border: 0px;
-    margin-top: 50px;
+    font-family: Oswald Regular;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    text-transform: uppercase;
 }
 
 .headline button {
+    border-radius: 18px;
     width: 115px;
     height: 36px;
-    border: 0px;
-    border-radius: 18px;
 }
 
 .learn-more {
@@ -243,44 +250,50 @@ button {
     margin: 0 auto;
 }
 
-.learn-more h1,
-.learn-more h2 {
-    color: #ffffff;
+.learn-more button {
+    border-radius: 50%;
+    font-size: 60px;
+    height: 150px;
+    margin-bottom: 65px;
+    padding-left: 25px;
+    width: 150px;
 }
 
-.learn-more button {
-    font-size: 50px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 65px;
+.overlap-rectangle {
+    background: rgba(140, 79, 42, 0.3);
+    height: 667px;
+    position: absolute;
+    top: 1482px;
+    width: 1200px;
 }
 
 footer {
     background-color: #464547;
-    width: 1200px;
+    box-sizing: border-box;
     height: 170px;
     margin: 0 auto;
     padding-left: 140px;
-    padding-top: 19px;
-    box-sizing: border-box;
+    width: 1200px;
 }
 
-.logo-project div {
-    display: inline;
-    font-family: Source Sans Pro;
-    text-transform: uppercase;
+.project-logo {
+    align-items: center;
+    display: flex;
+    padding-top: 19px;
+}
+
+.project-logo div {
+    font-size: 18px;
     font-style: normal;
+    text-transform: uppercase;
     font-weight: normal;
     letter-spacing: 0.2em;
-    color: #ffffff;
     margin-left: 16px;
-    padding-bottom: 30px;
 }
 
 .contacts {
     color: rgba(255, 255, 255, 0.4);
-    font-family: Source Sans Pro;
+    font-size: 16px;
     font-style: normal;
     font-weight: normal;
     line-height: 22px;
