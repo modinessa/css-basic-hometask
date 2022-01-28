@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button:hover,
+button:active,
+button:after,
+button:before {
+    outline: none;
+    border: none;
+}
+
+a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/* My CSS*/
+
+h1 {
+    font-family: Oswald;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.hero-block h1 {
+    margin-top: 20px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.hero-block h2 {
+    color: #ffffffb2;
+}
+
+.hero-block {
+    background-image: url(../assets/Hero_background.png);
+    width: 1200px;
+    height: 526px;
+    padding-top: 274px;
+    margin: 0 auto;
+}
+
+#big-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.headline {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 90px 97px 100px 120px;
+    box-sizing: border-box;
+}
+
+.headline h1 {
+    color: #464547;
+}
+
+.headline h2 {
+    color: #666666;
+}
+
+button {
+    color: #ffffff;
+    font-family: Oswald Regular;
+    text-transform: uppercase;
+    background-color: #55c2d8;
+    display: block;
+    border: 0px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline button {
+    width: 115px;
+    height: 36px;
+    border: 0px;
+    border-radius: 18px;
+}
+
+.learn-more {
+    background-image: url(../assets/Learn_more_background.png);
+    width: 1200px;
+    height: 582px;
+    padding-top: 84px;
+    margin: 0 auto;
+}
+
+.learn-more h1,
+.learn-more h2 {
+    color: #ffffff;
+}
+
+.learn-more button {
+    font-size: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 65px;
+}
+
+footer {
+    background-color: #464547;
+    width: 1200px;
+    height: 170px;
+    margin: 0 auto;
+    padding-left: 140px;
+    padding-top: 19px;
+    box-sizing: border-box;
+}
+
+.logo-project div {
+    display: inline;
+    font-family: Source Sans Pro;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    margin-left: 16px;
+    padding-bottom: 30px;
+}
+
+.contacts {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    margin-top: 12px;
+}
