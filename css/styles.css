@@ -243,10 +243,8 @@ button {
 }
 
 .learn-more {
-    background-image: url(../assets/Learn_more_background.png);
     width: 1200px;
-    height: 582px;
-    padding-top: 84px;
+    height: 666px;
     margin: 0 auto;
 }
 
@@ -255,13 +253,16 @@ button {
     font-size: 60px;
     height: 150px;
     margin-bottom: 65px;
+    padding-bottom: 10px;
     padding-left: 25px;
     width: 150px;
 }
 
-.overlap-rectangle {
+.overlap {
     background: rgba(140, 79, 42, 0.3);
+    box-sizing: border-box;
     height: 667px;
+    padding-top: 84px;
     position: absolute;
     top: 1482px;
     width: 1200px;
