@@ -1,0 +1,99 @@
+.white-text {
+    color: #ffffff;
+}
+
+.hero-block h1 {
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.hero-block h2 {
+    color: #ffffffb2;
+}
+
+.hero-block {
+    background-image: url(../assets/Hero_background.png);
+    height: 526px;
+    margin: 0 auto;
+    padding-top: 274px;
+    width: 1200px;
+}
+
+#big-logo {
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline {
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 90px 97px 100px 120px;
+    width: 1200px;
+}
+
+.headline h1 {
+    color: #464547;
+}
+
+.headline h2 {
+    color: #666666;
+}
+
+.headline button {
+    border-radius: 18px;
+    width: 115px;
+    height: 36px;
+}
+
+.learn-more {
+    width: 1200px;
+    height: 666px;
+    margin: 0 auto;
+}
+
+.learn-more button {
+    border-radius: 50%;
+    font-size: 60px;
+    height: 150px;
+    margin-bottom: 65px;
+    padding-left: 25px;
+    width: 150px;
+}
+
+.overlap {
+    background: rgba(140, 79, 42, 0.3);
+    box-sizing: border-box;
+    height: 667px;
+    padding-top: 84px;
+    position: absolute;
+    top: 1482px;
+    width: 1200px;
+}
+
+.project-logo {
+    align-items: center;
+    display: flex;
+    padding-top: 19px;
+}
+
+.project-logo div {
+    font-size: 18px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    margin-left: 16px;
+}
+
+.contacts {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    margin-top: 12px;
+}
